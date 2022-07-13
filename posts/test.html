@@ -13,26 +13,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
   <div class="header">
-    <img class="profile" src="user.jpg" alt="myPicture">
+    <img class="profile" src="../user.PNG" alt="myPicture">
     <h1>Ryan Kert</h1>
     <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
       <ul class="pure-menu-list">
         <li class="pure-menu-item">
-          <a href="index.html" class="pure-menu-link">Home</a>
+          <a href="../index.html" class="pure-menu-link">Home</a>
         </li>
         <li class="pure-menu-item">
-          <a href="projects.html" class="pure-menu-link">Projects</a>
+          <a href="../projects.html" class="pure-menu-link">Projects</a>
         </li>
         <li class="pure-menu-item">
-          <a href="posts.html" class="pure-menu-link">Posts</a>
+          <a href="../posts.html" class="pure-menu-link">Posts</a>
         </li>
         <li class="pure-menu-item">
-          <a href="videos.html" class="pure-menu-link">Videos</a>
+          <a href="../videos.html" class="pure-menu-link">Videos</a>
         </li>
         <li class="pure-menu-item">
           <a href="https://github.com/ryankert01" class="pure-menu-link">Github</a>
@@ -46,8 +46,23 @@
     </p>
 
     <p>Contact me at <a href="mailto:ryankert01@gmail.com">ryankert01@gmail.com</a>.</p>
+    <hr>
+    <div id="disqus_thread"></div>
+    <script>
+      (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document,
+          s = d.createElement('script');
+        s.src = 'https://ryankert.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <hr>
   </div>
 
+
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
 </body>
 
 </html>
