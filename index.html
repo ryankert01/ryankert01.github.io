@@ -1,53 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ryan Kert</title>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
-    integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <style>
+    img{
+        border-radius: 50%;
+    }
+    #ggrra{
+        background: -webkit-linear-gradient(120deg, #bb2efd, #3acafa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+  </style>
 </head>
-
-<body>
-  <div class="header">
-    <img class="profile" src="user.jpg" alt="myPicture">
-    <h1>Ryan Kert</h1>
-    <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item">
-          <a href="index.html" class="pure-menu-link">Home</a>
-        </li>
-        <li class="pure-menu-item">
-          <a href="projects.html" class="pure-menu-link">Projects</a>
-        </li>
-        <li class="pure-menu-item">
-          <a href="https://blog.ryankert.cc/" class="pure-menu-link">Blog</a>
-        </li>
-        <li class="pure-menu-item">
-          <a href="videos.html" class="pure-menu-link">Videos</a>
-        </li>
-        <li class="pure-menu-item">
-          <a href="https://github.com/ryankert01" class="pure-menu-link">Github</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="content">
-    <h1 class="hello">Hello!</h1>
-    <p>I'm Ryan, a computer science student of <a href="https://www.yzu.edu.tw/">YZU university</a>.
-    </p>
-
-    <p>Contact me at <a href="mailto:ryan@ryankert.cc">ryan@ryankert.cc</a>.</p>
-  </div>
-
-</body>
-
+  <body>
+    <div class="px-4 py-5 my-5 text-center">
+        <img class="ProfilePic d-block mx-auto mb-4" src="https://avatars.githubusercontent.com/u/91534261" alt="" width="200" height="200">
+        <h1 id="ggrra" class="display-5 fw-bold">Ryan Kert</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Hi! I'm a CS student based on Taoyuan!</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://github.com/ryankert01"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Github
+                </button></a>
+            <a href="https://blog.ryankert.cc/"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Blog</button>
+          </a></div>
+        </div>
+      </div>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./algokert.png" class="rounded d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Algokert</h1>
+            <p class="lead">An Algorithm Website for Everyone</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Link</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">GitHub Repo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
 </html>
