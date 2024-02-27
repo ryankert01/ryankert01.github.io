@@ -4,45 +4,121 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ryan</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <style>
-    img{
-        border-radius: 50%;
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous">
+    <style>
+    img {
+      border-radius: 50%;
     }
-    #ggrra{
-        background: -webkit-linear-gradient(120deg, #bb2efd, #3acafa);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    #ggrra {
+      background: -webkit-linear-gradient(120deg, #bb2efd, #3acafa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   </style>
-</head>
+  </head>
   <body>
+    <!-- Profile Section -->
     <div class="px-4 py-5 my-5 text-center">
-        <img class="ProfilePic d-block mx-auto mb-4" src="https://avatars.githubusercontent.com/u/91534261" alt="" width="200" height="200">
-        <h1 id="ggrra" class="display-5 fw-bold">Ryan Kert</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Hi! I'm a CS student based on Taoyuan!</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="https://github.com/ryankert01" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">Github</button></a>
-            <a href="https://blog.ryankert.cc/" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Blog</button></a>
+      <img class="ProfilePic d-block mx-auto mb-4"
+        src="https://avatars.githubusercontent.com/u/91534261" alt width="200"
+        height="200">
+      <h1 id="ggrra" class="display-5 fw-bold">Ryan Kert</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Hi! I'm a CS student based in Taoyuan!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="https://github.com/ryankert01" target="_blank"><button
+              type="button"
+              class="btn btn-primary btn-lg px-4 gap-3">Github</button></a>
+          <a href="https://blog.ryankert.cc/" target="_blank"><button
+              type="button"
+              class="btn btn-outline-secondary btn-lg px-4">Blog</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Card Section with Percentage Space on Sides -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+          <!-- Adjusts to 8/12 of the container width with equal margins on both sides -->
+          <div class="card">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural
+                lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+    <!-- Publications Section -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-4 text-center">Publications</h2>
+          <!-- Publication #1 -->
+          <div class="mb-3 offset-md-2">
+            <h3 class="mb-1">Title of Publication One</h3>
+            <p class="text-muted mb-1">Journal Name, Year</p>
+            <p>Short description of the publication highlighting the main
+              findings and contributions to the field. <a
+                href="publication-link-here" target="_blank">Read more</a></p>
+          </div>
+          <!-- Publication #2 -->
+          <div class="mb-3 offset-md-2">
+            <h3 class="mb-1">Title of Publication Two</h3>
+            <p class="text-muted mb-1">Journal Name, Year</p>
+            <p>Detailed overview or abstract of the publication, emphasizing its
+              significance and impact. <a href="publication-link-here"
+                target="_blank">Read more</a></p>
+          </div>
+          <!-- Add more publications as needed -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="container my-5">
+      <h2 class="mb-4 text-center">Projects</h2>
+
+      <!-- Algokert Project -->
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./algokert.png" class="rounded d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="./algokert.png"
+              class="rounded d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">Algokert</h1>
             <p class="lead">An Algorithm Website for Everyone</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://www.ryankert.cc/AlgoKert/" target="_blank"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Link</button></a>
-              <a href="https://github.com/ryankert01/AlgoKert" target="_blank"><button type="button" class="btn btn-outline-secondary btn-lg px-4">GitHub Repo</button></a>
+              <a href="https://www.ryankert.cc/AlgoKert/"
+                target="_blank"><button
+                  type="button"
+                  class="btn btn-primary btn-lg px-4 me-md-2">Link</button></a>
+              <a href="https://github.com/ryankert01/AlgoKert"
+                target="_blank"><button type="button"
+                  class="btn btn-outline-secondary btn-lg px-4">GitHub
+                  Repo</button></a>
             </div>
           </div>
         </div>
       </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
   </body>
 </html>
